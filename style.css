@@ -304,7 +304,7 @@ header {
   padding-left: 8%;
   background-color:rgb(233, 236, 217);
   margin-top: -3em;
-  padding-bottom: 40px;
+  padding-bottom: 90px;
 
 }
 .avail{
@@ -314,7 +314,10 @@ header {
   margin-top: 30px;
 }
 .avail h1{
-  margin-left: 35%;
+  margin-left: 25%;
+  padding-top: 40px;
+  font-size: 60px;
+  
 }
 .avail span{
   color: rgb(138, 182, 72);
@@ -323,6 +326,8 @@ header {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .fruity i{
   color: rgb(138, 182, 72);
@@ -359,6 +364,7 @@ header {
   margin-top: 40px;
   position: relative;
   transition: transform 0.3s ease-in-out;
+  padding-bottom: 40px;
 }
 .vegies i{
   color: rgb(138, 182, 72);
@@ -514,9 +520,12 @@ margin-top: 6px;
   }
   .avail{
       text-align: left;
-      font-size: 25px;
+      font-size: 55px;
       margin-bottom: 30px;
       margin-top: 30px;
+  }
+  .avail h2{
+    font-size: 40px;
   }
 
 
@@ -528,6 +537,7 @@ margin-top: 6px;
   border-left: 18px solid rgb(114, 175, 45);
   float: right;
   margin-right: 20px;
+ 
 
 }
 .arrow:hover{
@@ -536,8 +546,6 @@ margin-top: 6px;
 
 
 }
-
-
 
 
 .footer{

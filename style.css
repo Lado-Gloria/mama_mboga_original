@@ -578,6 +578,8 @@ ion-icon{
   height: auto;
   text-align: center;
   padding: 20px;
+ padding-top: 600px;
+  
   }
   
   .footer > * {
@@ -587,6 +589,11 @@ ion-icon{
   .icons {
   margin-left: auto;
   margin-right: auto;
+  margin-top: -36em;
+  }
+  .icons img{
+    height: 10%;
+    width: 30%;
   }
   
   .ion-icon {

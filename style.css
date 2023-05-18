@@ -297,3 +297,237 @@ header {
     margin-top: 1rem;
   }
 }
+
+
+
+.fruits{
+  padding-left: 8%;
+  background-color:rgb(233, 236, 217);
+
+}
+.avail{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.avail span{
+  color: rgb(138, 182, 72);
+}
+.fruity{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.fruity i{
+  color: rgb(138, 182, 72);
+  margin-left: 130px;
+  position: relative;
+  bottom: -10%;
+  margin-top: 3px;
+
+
+}
+.fruity p{
+  position: absolute;
+  margin-left: 10px;
+  margin-top:45px ;
+  align-items: flex-end;
+}
+.fruity div{
+  margin:30px 30px;
+  /* background-color: antiquewhite; */
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 60%;
+
+}
+.fruity div:hover{
+  background-color:rgb(233, 236, 217);
+  transform: scale(1.1);
+}
+
+.vegies{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 40px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+.vegies i{
+  color: rgb(138, 182, 72);
+margin-left: 130px;
+margin-top: 6px;
+}
+.vegies div{
+  margin:30px 30px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 60%;
+}
+.vegies div :hover{
+  background-color:rgb(233, 236, 217);
+  opacity: 0.8;
+  transform: scale(1.1);
+
+}
+.vegies p{
+  position: absolute;
+  padding-left: 10px;
+  margin-top:45px ;
+
+
+}
+#image{
+  width: 80%;
+  height: 80%;
+}
+#image1{
+  width: 100%;
+  height: 80%; 
+
+}
+#image2{
+  width: 90%;
+  height: 80%;
+
+}
+#image3{
+  width: 80%;
+  height: 80%; 
+
+}
+
+
+@media(max-width:800px){
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .fruits{
+      margin-left: 0%;
+      overflow-x: hidden;
+  }
+  .fruity{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+  .vegies{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      /* gap: 10px; */
+      margin-top: 40px;
+      position: relative;
+      transition: transform 0.3s ease-in-out;
+  
+   
+  }
+
+   
+  }
+  @media(min-width:768px)and(max-width:912) {
+      .fruits{
+          margin-left: 0%;
+          overflow-x: hidden;
+      }
+      .fruity{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          /* gap: 10px; */
+      }
+      .vegies{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          /* gap: 10px; */
+          margin-top: 40px;
+          position: relative;
+          transition: transform 0.3s ease-in-out;
+      
+       
+      }
+
+  }
+  @media(min-width:390px)and(max-width:440px){
+      .vegies i{
+          color: rgb(138, 182, 72);
+      margin-left: 4px;
+      margin-top: 6px;
+      }
+      .fruity i{
+          color: rgb(138, 182, 72);
+          margin-right: 5px;
+          position: relative;
+          bottom: -10%;
+          margin-top: 3px;
+      
+      
+      }
+  }
+  @media(max-width:280px){
+      .vegies{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          /* gap: 10px; */
+          margin-top: 40px;
+          position: relative;
+          transition: transform 0.3s ease-in-out;
+      
+       
+      }
+      .fruity{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+ 
+  .vegies div{
+      width: 45%;
+  }
+  .fruity div{
+      width: 45%;
+
+  }
+  #image{
+      width: 80%;
+      height: 80%;
+  }
+  #image1{
+      width: 100%;
+      height: 80%; 
+  
+  }
+  #image2{
+      width: 90%;
+      height: 80%;
+   
+  }
+  #image3{
+      width: 80%;
+      height: 80%; 
+  
+  }
+  .avail{
+      text-align: left;
+      font-size: 25px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+  }
+
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 18px solid rgb(114, 175, 45);
+  float: right;
+  margin-right: 20px;
+
+}
+.arrow:hover{
+  border-left: 18px solid rgb(162, 172, 151);
+  transform: scale(1.5);
+
+
+}

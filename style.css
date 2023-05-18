@@ -303,6 +303,8 @@ header {
 .fruits{
   padding-left: 8%;
   background-color:rgb(233, 236, 217);
+  margin-top: -3em;
+  padding-bottom: 40px;
 
 }
 .avail{
@@ -310,6 +312,9 @@ header {
   font-size: 25px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.avail h1{
+  margin-left: 35%;
 }
 .avail span{
   color: rgb(138, 182, 72);
@@ -531,3 +536,71 @@ margin-top: 6px;
 
 
 }
+
+
+
+
+.footer{
+  display: grid;grid-template-columns: repeat(4,4fr);
+  background-color: black; 
+  color: wheat;
+  gap: 100px;
+  margin-top: 50px;
+  padding-top: 60px;
+  
+
+}
+li{
+  list-style: none;
+}
+.icons{
+  margin-left: 50%;
+}
+ion-icon{
+  size: 20px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .footer {
+  display: block;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  }
+  
+  .footer > * {
+  margin-bottom: 10px;
+  }
+  
+  .icons {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .ion-icon {
+  font-size: 20px;
+  }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+  grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  height: 300px;
+  }
+  }
+  
+  @media screen and (min-width: 1024px) {
+  .footer {
+  grid-template-columns: repeat(4, 4fr);
+  gap: 100px;
+  height: 400px;
+  }
+  }
+  
+
+  

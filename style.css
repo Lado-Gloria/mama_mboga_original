@@ -446,14 +446,14 @@ margin-top: 6px;
   background-color:rgb(233, 236, 217);
   /* opacity: 0.8;
   transform: scale(1.1); */
-  /* border-color: black; */
+  
   transform: scale(1.1);
 
 }
 .vegies p{
   position: absolute;
   padding-left: 10px;
-  /* margin-top:45px ; */
+  
 
 
 }

@@ -370,13 +370,18 @@ header {
 }
 
 .vegies{
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 10px;
   margin-top: 40px;
   position: relative;
   transition: transform 0.3s ease-in-out;
-  padding-bottom: 40px;
+  padding-bottom: 40px; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .vegies i{
   color: rgb(138, 182, 72);
@@ -511,6 +516,8 @@ margin-top: 6px;
  
   .vegies div{
       width: 80%;
+      background-color:rgb(233, 236, 217);
+      transform: scale(1.1);
   }
   .fruity div{
       width: 80%;

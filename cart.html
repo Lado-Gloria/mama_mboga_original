@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+  <section id="Cart">
+
+    
+  <h1 id="h1"> My Cart</h1>
+  
+  <div class="cart-items">
+    <div class="images">
+    <div class="cart-item">
+      <img id="img1" src="image/tomatos1.jpg" alt="Tomato">
+      <div class="item-details">
+        <h3>Tomato</h3>
+        <p>ksh 20</p>
+      </div>
+      <button class="remove-item">Remove</button>
+    </div>
+    <div class="cart-item">
+
+      <div class="cart-item">
+        <img id="img1" src="image/bananas1.jpg" alt="Tomato">
+        <div class="item-details1">
+          <h3>Bananas</h3>
+          <p>ksh 10</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="images">
+    <div class="cart-item">
+
+      <div class="cart-item">
+        <img id="img1" src="image/spinach.jpg" alt="Tomato">
+        <div class="item-details">
+          <h3>Spinach</h3>
+          <p>ksh 50</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+
+      <div class="cart-item">
+        <img id="img" src="image/cabbage.jpg" alt="Tomato">
+        <div class="item-details">
+          <h3>Cabbage</h3>
+          <p>ksh 100</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="total">
+  <div class="caca"> 
+    <label for="cart total">CART TOTAL</label>
+    <button class="remove-item2">Total=ksh 180</button>
+  </div>
+  <div class="container">
+    <label for="payment">Payment Method:</label>
+    <select id="payment">
+      <option value="credit">Choose payment</option>
+      <option value="paypal">M-pesa</option>
+      <option value="bank">Pay on delivery</option>
+    </select>
+    <div id="delivery">
+    <label for="delivery">Delivery Method:</label>
+    <select id="deliverys">
+      <option value="standard">Choose delivery</option>
+      <option value="standard">Home delivery</option>
+      <option value="express">Pick-up point</option>
+    </select>
+  </div>
+  </div>
+  <button class="checkout">Checkout</button>
+</div>
+  <script src="script.js"></script>
+
+  </section>
+</body>
+</html>

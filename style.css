@@ -668,7 +668,7 @@ body {
   background-color: #f2f2f2;
 }
 
-.container {
+.container22 {
   width: 300px;
   margin: 0 auto;
   padding: 20px;
@@ -726,7 +726,7 @@ button {
     background-color: #f2f2f2;
   }
 
-  .container {
+  .container22 {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -770,14 +770,14 @@ button {
     margin-top: 10px;
   }
 
-  .container a{
+  .container22 a{
     text-decoration: none;
     color: black;
   }
 
   /* Media query for phones */
   @media (max-width: 480px) {
-    .container {
+    .container22 {
       width: 90%;
     }
 
@@ -790,7 +790,7 @@ button {
 
   /* Media query for tablets */
   @media (min-width: 481px) and (max-width: 768px) {
-    .container {
+    .container22 {
       width: 60%;
     }
   }
